@@ -68,8 +68,7 @@ class UsersRepository implements IUsersRepository {
 
     const updatedUser = {
       ...receivedUser,
-      admin: true,
-      updated_at: new Date()
+      admin: true
     };
 
     return updatedUser;
